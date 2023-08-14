@@ -20,6 +20,8 @@ STEPS TO CREATE A NEW PRODUCT:
 7) If you recieve the message saying new product added successfully then you have done everything correct.
 8) The product is created. Check it out by making a GET request at localhost:3000/products
 
+"C:\Users\Dell\Pictures\Screenshots\Screenshot (88).png"
+
 STEPS TO DELETE A PRODUCT:
 1) copy the object id of the product you want to delete.
 2) add the id after localhost:3000/products/
