@@ -19,14 +19,16 @@ STEPS TO CREATE A NEW PRODUCT:
 6) Make a POST request.
 7) If you recieve the message saying new product added successfully then you have done everything correct.
 8) The product is created. Check it out by making a GET request at localhost:3000/products
+![Screenshot (86)](https://github.com/sid022/Ecommerce-API_CN/assets/102418478/df81460f-6f38-40a9-bda1-4cdf8cb62f8f)
 
-"C:\Users\Dell\Pictures\Screenshots\Screenshot (88).png"
 
 STEPS TO DELETE A PRODUCT:
 1) copy the object id of the product you want to delete.
 2) add the id after localhost:3000/products/
 3) Make a DELETE request.
 4) You will recieve a message saying deleted successfully.
+   
+![Screenshot (87)](https://github.com/sid022/Ecommerce-API_CN/assets/102418478/bbc8480b-ce6a-4b23-8af6-f85746f1bdac)
 
 STEPS TO UPDATE THE QUANTITY OF A PRODUCT:
 1) Copy the object id of the product whose quantity you want to update
@@ -34,6 +36,8 @@ STEPS TO UPDATE THE QUANTITY OF A PRODUCT:
 3) After putting the id add /update_quantity/?number={x} in the url where x is the number by which you want to increase or decrease the quantity.
 4) the url should be looking like localhost:3000/products/{id}/update_quantity/?number={x}
 5) Make a POST request and you should get a message containing the update product
+ ![Screenshot (88)](https://github.com/sid022/Ecommerce-API_CN/assets/102418478/03f9d1f9-3964-43e0-baba-74377baa2a9e)
+
 
 
 # TECHSTACK
